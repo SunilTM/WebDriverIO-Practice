@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637316077526' stop='1637316077574'>
+    <name>The Internet Guinea Pig Website: As a user, I can search for Iphone X</name>
+    <title>The Internet Guinea Pig Website: As a user, I can search for Iphone X</title>
+    <test-cases>
+        <test-case start='1637316077529' status='passed' stop='1637316077533'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637316077534' status='passed' stop='1637316077564'>
+            <name>Given I'm the Amazon Search page</name>
+            <title>Given I'm the Amazon Search page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps>
+                <step start='1637316077548' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7bcb85c6-d405-491d-9c51-313ced51fc29-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637316077564' status='broken' stop='1637316077569'>
+            <name>When Search for Iphone X</name>
+            <title>When Search for Iphone X</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Search for Iphone X" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Search for Iphone X" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\SUNIL\IdeaProjects\WebDriverIO-Practice\features\AmazonSearch.feature):1:1
+                	at Scenario(As a user, I can search for Iphone X):3:3
+                	at Step(Search for Iphone X):6:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1637316077569' status='broken' stop='1637316077570'>
+            <name>Then print the url</name>
+            <title>Then print the url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "print the url" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "print the url" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\SUNIL\IdeaProjects\WebDriverIO-Practice\features\AmazonSearch.feature):1:1
+                	at Scenario(As a user, I can search for Iphone X):3:3
+                	at Step(print the url):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1637316077570' status='passed' stop='1637316077572'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

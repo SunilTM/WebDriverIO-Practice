@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637316004580' stop='1637316004602'>
+    <name>The Internet Guinea Pig Website: As a user, I can search for Iphone X</name>
+    <title>The Internet Guinea Pig Website: As a user, I can search for Iphone X</title>
+    <test-cases>
+        <test-case start='1637316004584' status='passed' stop='1637316004590'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637316004591' status='broken' stop='1637316004595'>
+            <name>Given I'm on Amazon Search page</name>
+            <title>Given I'm on Amazon Search page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I'm on Amazon Search page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I'm on Amazon Search page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\SUNIL\IdeaProjects\WebDriverIO-Practice\features\AmazonSearch.feature):1:1
+                	at Scenario(As a user, I can search for Iphone X):3:3
+                	at Step(I'm on Amazon Search page):5:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1637316004595' status='broken' stop='1637316004596'>
+            <name>When Search for Iphone X</name>
+            <title>When Search for Iphone X</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Search for Iphone X" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Search for Iphone X" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\SUNIL\IdeaProjects\WebDriverIO-Practice\features\AmazonSearch.feature):1:1
+                	at Scenario(As a user, I can search for Iphone X):3:3
+                	at Step(Search for Iphone X):6:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1637316004596' status='broken' stop='1637316004597'>
+            <name>Then print the url</name>
+            <title>Then print the url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "print the url" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "print the url" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\SUNIL\IdeaProjects\WebDriverIO-Practice\features\AmazonSearch.feature):1:1
+                	at Scenario(As a user, I can search for Iphone X):3:3
+                	at Step(print the url):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1637316004597' status='passed' stop='1637316004599'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

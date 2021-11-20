@@ -1,0 +1,114 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637315044463' stop='1637315044508'>
+    <name>The Internet Guinea Pig Website: As a user, I can log into the secure area</name>
+    <title>The Internet Guinea Pig Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1637315044464' status='passed' stop='1637315044466'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637315044466' status='broken' stop='1637315044505'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps>
+                <step start='1637315044467' status='broken' stop='1637315044505'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c9338b65-e510-48b2-8185-f3fd94cf1d86-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=96.0.4664.45)
+                Backtrace:
+                	Ordinal0 [0x007E6903+2517251]
+                	Ordinal0 [0x0077F8E1+2095329]
+                	Ordinal0 [0x00682848+1058888]
+                	Ordinal0 [0x0066BF90+966544]
+                	Ordinal0 [0x006C8999+1345945]
+                	Ordinal0 [0x006D5342+1397570]
+                	Ordinal0 [0x006C639B+1336219]
+                	Ordinal0 [0x006A27A7+1189799]
+                	Ordinal0 [0x006A3609+1193481]
+                	GetHandleVerifier [0x00975904+1577972]
+                	GetHandleVerifier [0x00A20B97+2279047]
+                	GetHandleVerifier [0x00876D09+534521]
+                	GetHandleVerifier [0x00875DB9+530601]
+                	Ordinal0 [0x00784FF9+2117625]
+                	Ordinal0 [0x007898A8+2136232]
+                	Ordinal0 [0x007899E2+2136546]
+                	Ordinal0 [0x00793541+2176321]
+                	BaseThreadInitThunk [0x75D9FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77767A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77767A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1637315044506' status='pending' stop='1637315044507'>
+            <name>When I login with foobar and barfoo</name>
+            <title>When I login with foobar and barfoo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637315044507' status='pending' stop='1637315044507'>
+            <name>Then I should see a flash message saying Your username is invalid!</name>
+            <title>Then I should see a flash message saying Your username is invalid!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637315044508' status='passed' stop='1637315044508'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
